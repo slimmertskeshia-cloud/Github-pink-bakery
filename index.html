@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pink Bakery | Order Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🎀 Pink Bakery 🎀</h1>
+        <p>Handcrafted Sweets & Treats</p>
+    </header>
+
+    <div class="container">
+        <section id="storefront">
+            <h2>Menu</h2>
+            <div class="menu-grid">
+                <div class="item-card" data-name="Strawberry Cake" data-price="15.00">
+                    <span class="emoji">🍰</span>
+                    <h3>Strawberry Cake</h3>
+                    <p>$15.00</p>
+                    <button class="order-btn">Place Order</button>
+                </div>
+                <div class="item-card" data-name="Pink Macaron" data-price="3.50">
+                    <span class="emoji">🍪</span>
+                    <h3>Pink Macaron</h3>
+                    <p>$3.50</p>
+                    <button class="order-btn">Place Order</button>
+                </div>
+                <div class="item-card" data-name="Cupcake Delight" data-price="4.50">
+                    <span class="emoji">🧁</span>
+                    <h3>Cupcake Delight</h3>
+                    <p>$4.50</p>
+                    <button class="order-btn">Place Order</button>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="admin-panel">
+            <h2>Owner Dashboard</h2>
+            <div id="order-list">
+                <p class="empty-msg">No orders received yet.</p>
+            </div>
+            <button id="clear-data" style="margin-top: 20px; background: #999;">Clear All History</button>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
